@@ -1,0 +1,38 @@
+@media (max-width: 767px) {
+	.header-top-left i.fa-bars{
+		display: inline-block;
+	}
+	.main-menu{
+		width: 45%;
+		background-color: #fff;
+		position: absolute;
+		top: 0;
+		left: -46%;
+		z-index: 9999;
+		box-shadow: 0 0 2px #000;
+
+	}
+	.main-menu ul li{
+		padding: 10px 0;
+		border-bottom: 1px solid #ddd;
+	}
+	.main-menu ul li:last-child{
+		padding-bottom: 0;
+		border: none;
+	}
+	.close-menu{
+		display: block;
+		padding: 10px;
+		border-bottom: 1px solid #ddd;
+		overflow: hidden;
+	}
+	
+	.close-menu i{
+		float: right;
+		font-size: 20px;
+	}
+	.main-menu ul{
+		display: block;
+		padding: 0;
+	}
+}

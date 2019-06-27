@@ -1,0 +1,181 @@
+/* 
+Theme Name: BD BLOG
+Theme URI: https://www.buddyszone.org
+Author:BD BLOG team
+Author URI: https://wordpress.org/
+Description: Twenty Sixteen is a modernized take on an ever-popular WordPress layout â€” the horizontal masthead with an 
+
+
+
+*/
+
+
+
+
+
+
+
+
+a:hover{
+	text-decoration: none;
+}
+
+.header-area{}
+.header-top{
+	background-color: #000;
+	overflow: hidden;
+	padding: 5px 0;
+}
+.header-top-left{
+	color: #fff;
+} 
+.header-top-left i.fa-bars{
+	font-size: 25px;
+	padding: 2px 5px 0;
+	color: #fff;
+	margin-top: 5px;
+	display: none;
+}
+.header-top-right{
+	float: right;
+}
+
+.header-top-right input[type=text] {
+	background-color: transparent;
+	border: none;
+	color: #bdc3c7;
+}
+.header-top-right input[type=text]:focus{
+	outline: none;
+}
+
+.header-top-right input[type=text]::placeholder {
+  color: #bdc3c7;
+  opacity: 1; /* Firefox */
+}
+
+.header-top-right input[type=text]:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #bdc3c7;
+}
+
+.header-top-right input[type=text]::-ms-input-placeholder { /* Microsoft Edge */
+ color: #bdc3c7;
+}
+
+.header-top-right button{
+	background-color: transparent;
+	border: none;
+	color: #bdc3c7;
+}
+.header-top-right button input{
+	background-color: transparent;
+	border: none;
+}
+
+.header-logo{
+	padding-top: 10px;
+}
+
+.header-menu{}
+.main-menu{}
+.close-menu{
+	display: none;
+}
+.main-menu ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+}
+
+.main-menu ul li a{
+	padding: 10px 20px 0;
+	display: block;
+	text-transform: uppercase;
+	color: #122B46;
+	font-weight: 700;
+}
+
+/* Content Area Starts */
+
+.pn-content{
+	padding: 80px 0;
+}
+.pn-post{}
+.pn-post img{
+	width: 100%;
+	height: auto;
+}
+.pn-post h2{}
+.pn-post .pn-athour-date strong{
+	color: #122B46;
+}
+.pn-post .pn-athour-date{
+	color: #7f8c8d;
+}
+.pn-tag a{
+    padding-right: 5px;
+    color: #5D5F60;
+    
+}
+.pn-sidebar{}
+.pn-sidebar-content{}
+.pn-sidebar .pn-sidebar-content:nth-child(odd) h2{
+	background-color: #122B46;
+	color: #fff;
+	padding: 5px;
+}
+.pn-sidebar .pn-sidebar-content:nth-child(even) h2{
+	background-color: #c0392b;
+	color: #fff;
+	padding: 5px;
+}
+.pn-sidebar-content ul{
+	list-style: none;
+	padding: 0;
+}
+.pn-sidebar-content ul li{
+	padding: 5px;
+}
+.pn-sidebar-content ul li a{
+	color: #34495e;
+	transition: .2s;
+}
+.pn-sidebar-content ul li a:hover{
+	font-weight: 700;
+}
+.pn-footer-widget{
+	background-color: #34495e;
+	padding:50px 0;
+}
+.pn-widget-left iframe,
+.pn-widget-mid iframe,
+.pn-widget-right iframe{
+	width: 100%;
+	height: 200px;
+}
+
+.footer-area{
+    overflow: hidden;
+	background-color: #2c3e50;
+	padding: 5px 0;
+}
+.footer-text{
+    float: left;
+}
+.footer-text p{
+	margin: 0;
+	color: #fff;
+}
+.footer-icon{}
+.footer-icon ul{
+    display: flex;
+    float: right;
+    list-style: none;
+    margin: 0;
+}
+.footer-icon ul li{}
+.footer-icon ul li a{
+    color: #fff;
+    padding: 0 10px;
+}
